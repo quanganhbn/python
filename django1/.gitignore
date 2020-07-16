@@ -1,2 +1,3 @@
 /venv
 /django1/db.sqlite3
+/django1/adoptions/__pycache__

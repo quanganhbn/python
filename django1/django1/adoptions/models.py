@@ -15,3 +15,9 @@ class Pet( models.Model ):
 
 class Vaccine( models.Model ):
     name = models.CharField( max_length=50 )
+
+    # Tell django what to display for the name field of this vaccine model
+    # overwrite __str__ method
+    # return value of what to use to overwrite
+    def __str__(self):
+        return self.name
