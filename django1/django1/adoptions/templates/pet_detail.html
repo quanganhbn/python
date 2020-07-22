@@ -1,3 +1,5 @@
+{% extends "base.html" %} {% block content %}
+
 <div>
   <h3>{{ pet.name|capfirst }}</h3>
   <p>{{ pet.species }}</p>
@@ -19,3 +21,4 @@
   <p>Submitted om: {{ pet.submission_date|date:"yyyy-mm-dd" }}</p>
   <p>{{ pet.description }}</p>
 </div>
+{% endblock %}
