@@ -1,3 +1,5 @@
 /env
 /portfolio-project/db.sqlite3
 /portfolio-project/portfolio/__pycache__/
+/portfolio-project/jobs/__pycache__/
+/portfolio-project/jobs/migrations
