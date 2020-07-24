@@ -85,7 +85,7 @@
             {{ job.summary }}
           </p>
 
-          <img src="{% static '0004.jpg' %}" style="width: 100px;" />
+          <img src="{{ job.image.url }}" style="width: 500px;" />
           <p>
             <a href="{% url 'home' %}" class="btn btn-secondary my-2">Back</a>
           </p>
