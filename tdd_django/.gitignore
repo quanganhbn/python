@@ -1,1 +1,4 @@
-venv
+/venv
+/geckodriver.log
+/hashthat/hashthat/__pycache__
+/hashthat/db.sqlite3
