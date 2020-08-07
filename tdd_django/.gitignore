@@ -2,3 +2,6 @@
 /geckodriver.log
 /hashthat/hashthat/__pycache__
 /hashthat/db.sqlite3
+
+/hashthat/hashing/__pycache__
+/hashthat/geckodriver.log
